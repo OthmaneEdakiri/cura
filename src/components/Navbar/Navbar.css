@@ -1,0 +1,47 @@
+.navbar-items {
+    padding: 20px 0;
+    background: #E3E6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    left: 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar-items .navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-items .navbar-content .navbar-links{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-items .navbar-content .navbar-links li{
+    padding: 0 20px;
+}
+
+.navbar-items .navbar-content .navbar-links li a{
+    font-weight: 600;
+    color: #1a1a1a;
+    position: relative;
+}
+
+.navbar-items .navbar-content .navbar-links li a:hover,
+.navbar-items .navbar-content .navbar-links li a.active
+{
+    color: #088178;
+}
+
+.navbar-items .navbar-content .navbar-links li a.active::after,
+.navbar-items .navbar-content .navbar-links li a:hover::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 45%;
+    background: #088178;
+    left: 0;
+    bottom: -5px;
+}
