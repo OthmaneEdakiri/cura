@@ -1,13 +1,13 @@
 import React from 'react'
-import HomeHero from '../components/HomeHero/HomeHero'
-import { hero1 } from '../assets'
-import {Navbar} from '../components'
+import {Navbar,HomeHero, Features, Products} from '../components'
 
 const Home = () => {
 return (
     <div>
         <Navbar />
-        <HomeHero info={{cName: "hero",image:hero1}} />
+        <HomeHero />
+        <Features />
+        <Products />
     </div>
 )
 }

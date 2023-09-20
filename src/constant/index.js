@@ -1,3 +1,4 @@
+import { feature1,feature2,feature3,feature4,feature5,feature6,product1,product2,product3,product4,product5,product6,product7,product8 } from "../assets";
 export const navLinks = [
     {
         id: "home",
@@ -24,3 +25,95 @@ export const navLinks = [
         title: "fa-solid fa-bag-shopping",
     },
 ];
+
+export const features = [
+    {
+        id: "feature-1",
+        image: feature1,
+        title: "Free Shipping",
+    },
+    {
+        id: "feature-2",
+        image: feature2,
+        title: "Online Order",
+    },
+    {
+        id: "feature-3",
+        image: feature3,
+        title: "Save Money",
+    },
+    {
+        id: "feature-4",
+        image: feature4,
+        title: "Promotions",
+    },
+    {
+        id: "feature-5",
+        image: feature5,
+        title: "Happy Sell",
+    },
+    {
+        id: "feature-6",
+        image: feature6,
+        title: "F24/7 Support",
+    },
+];
+
+export const products = [
+    {
+        id: "product-1",
+        image: product1,
+        mark: "adidas",
+        title:"Cartoon Astronaut T-shirts",
+        price: "$78",
+    },
+    {
+        id: "product-2",
+        image: product2,
+        mark: "adidas",
+        title:"Cartoon Astronaut T-shirts",
+        price: "$78",
+    },
+    {
+        id: "product-3",
+        image: product3,
+        mark: "adidas",
+        title:"Cartoon Astronaut T-shirts",
+        price: "$78",
+    },
+    {
+        id: "product-4",
+        image: product4,
+        mark: "adidas",
+        title:"Cartoon Astronaut T-shirts",
+        price: "$78",
+    },
+    {
+        id: "product-5",
+        image: product5,
+        mark: "adidas",
+        title:"Cartoon Astronaut T-shirts",
+        price: "$78",
+    },
+    {
+        id: "product-6",
+        image: product6,
+        mark: "adidas",
+        title:"Cartoon Astronaut T-shirts",
+        price: "$78",
+    },
+    {
+        id: "product-7",
+        image: product7,
+        mark: "adidas",
+        title:"Cartoon Astronaut T-shirts",
+        price: "$78",
+    },
+    {
+        id: "product-8",
+        image: product8,
+        mark: "adidas",
+        title:"Cartoon Astronaut T-shirts",
+        price: "$78",
+    },
+]
