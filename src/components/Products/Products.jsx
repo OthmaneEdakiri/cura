@@ -1,17 +1,16 @@
 import "./Products.css"
-import {Product} from "../../components";
-import { products } from "../../constant";
+import {Product} from "../../components"
 
-const Products = () => {
+const Products = (props) => {
     return (
         <div className="products section-p1">
             <div className="container">
                 <div className="main-title">
-                    <h2>Featured Products</h2>
-                    <p>Summer Collection</p>
+                    <h2>{props.info.title}</h2>
+                    <p>{props.info.collection}</p>
                 </div>
                 <div className="products-content">
-                    {products.map(product=><Product
+                    {props.info.products.map(product=><Product
                         key={product.id} 
                         info={{
                             image:product.image,

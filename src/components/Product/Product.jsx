@@ -1,5 +1,4 @@
 import "./Product.css";
-import { product1 } from "../../assets";
 
 const Product = (props) => {
     return (

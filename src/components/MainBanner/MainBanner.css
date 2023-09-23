@@ -1,0 +1,31 @@
+.main-banner{
+    text-align: center;
+    background: url("../../assets/banner/b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-banner h4{
+    font-size:16px ;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.main-banner h2{
+    font-size: 30px ;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.main-banner h2 span{
+    color: red;
+}
+
+.main-banner button:hover{
+    color: #fff;
+    background: #088178;
+}
