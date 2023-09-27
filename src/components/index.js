@@ -4,7 +4,9 @@ import Features from "./Features/Features";
 import Feature from "./Feature/Feature";
 import Products from "./Products/Products";
 import Product from "./Product/Product";
-import MainBanner from "./MainBanner/MainBanner";
+import Banner from "./Banner/Banner";
+import Banners from "./Banners/Banners";
+import BannerText from "./BannerText/BannerText";
 
 
 export {
@@ -14,5 +16,8 @@ export {
     Feature as Feature,
     Products as Products,
     Product as Product,
-    MainBanner as MainBanner
+    Banner as Banner,
+    Banners as Banners,
+    BannerText as BannerText,
+
 }

@@ -1,0 +1,34 @@
+.banners .banners-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.banners .banners-content .sm-banner:nth-child(1){
+    background: url("../../assets/banner/b17.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banners .banners-content .sm-banner:nth-child(2){
+    background: url("../../assets/banner/b10.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banners .banners-content .banner-text:nth-child(3){
+    background: url("../../assets/banner/b7.jpg");
+    background-size: cover;
+    background-position: center;
+    width: calc(30% - 13.33px);
+}
+.banners .banners-content .banner-text:nth-child(4){
+    background: url("../../assets/banner/b4.jpg");
+    background-size: cover;
+    background-position: center;
+    width: calc(40% - 13.33px);
+}
+.banners .banners-content .banner-text:nth-child(5){
+    background: url("../../assets/banner/b18.jpg");
+    background-size: cover;
+    background-position: center;
+    width: calc(30% - 13.33px);
+}

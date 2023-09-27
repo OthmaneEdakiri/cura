@@ -80,6 +80,17 @@ button.normal{
     border: none;
     transition: 0.2s;
 }
+button.white{
+    padding: 11px 18px;
+    color: #fff;
+    font-size: 13px ;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #fff;
+    font-weight: 600;
+    transition: 0.2s;
+    outline: none;
+}
 
 p{
     font-size: 16px;
