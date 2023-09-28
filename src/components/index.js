@@ -7,6 +7,8 @@ import Product from "./Product/Product";
 import Banner from "./Banner/Banner";
 import Banners from "./Banners/Banners";
 import BannerText from "./BannerText/BannerText";
+import Newsletter from "./Newsletter/Newsletter";
+import Footer from "./Footer/Footer";
 
 
 export {
@@ -19,5 +21,6 @@ export {
     Banner as Banner,
     Banners as Banners,
     BannerText as BannerText,
-
+    Newsletter as Newsletter,
+    Footer as Footer,
 }

@@ -1,4 +1,4 @@
-import {Navbar,HomeHero, Features, Products, Banner, Banners} from '../components';
+import {Navbar, HomeHero, Features, Products, Banner, Banners, Newsletter, Footer} from '../components';
 import { products, arrivals } from "../constant";
 
 const Home = () => {
@@ -29,6 +29,8 @@ return (
                 collection:"Summer Collection New Modern Design"
             }} />
         <Banners />
+        <Newsletter />
+        <Footer />
     </div>
 )
 }

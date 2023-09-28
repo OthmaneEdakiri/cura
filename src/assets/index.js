@@ -22,6 +22,9 @@ import arrival5 from "./products/n5.jpg";
 import arrival6 from "./products/n6.jpg";
 import arrival7 from "./products/n7.jpg";
 import arrival8 from "./products/n8.jpg";
+import app from "./pay/app.jpg"
+import pay from "./pay/pay.png"
+import play from "./pay/play.jpg"
 
 
 export{
@@ -49,4 +52,7 @@ export{
     arrival6 as arrival6,
     arrival7 as arrival7,
     arrival8 as arrival8,
+    app as app,
+    pay as pay,
+    play as play,
 }
